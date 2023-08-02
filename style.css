@@ -1,0 +1,60 @@
+html{
+    width: 0px;
+    height: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    width: 100%;
+    margin-left: 100px;
+    color: blue;
+    background-color: black;
+    
+}
+
+header{
+    text-align: center;
+    margin:0 auto;
+    background-color: rgb(156, 103, 33);
+    border-radius: 20%;
+}
+
+.myList{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    background-color: aqua;
+}
+
+.myList  li:first-child  {
+     color: brown;
+     font-size: 25px;
+     font-weight: bold;
+}
+
+li::first-letter{
+    text-transform: uppercase;
+}
+
+.myList hr{
+    height: 10px;
+    margin-left: -30px;
+    background-color: chocolate;
+    width: 100%;
+}
+
+main button{
+    background-color: chartreuse;
+    border: 3px solid wheat;
+    margin-left: 15px;
+    width: 105px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main .bouton{
+    display: flex;
+    align-content: space-between;
+}
